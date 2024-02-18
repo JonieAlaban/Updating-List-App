@@ -12,6 +12,8 @@ def list_main(my_choice):
         my_list.sort(reverse = True)
     elif my_choice == 5:
         exit()
+    else:
+        print("Invalid Selection")
 
 my_list = [3, 7, 2, 9, 1]
 
